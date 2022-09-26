@@ -18,3 +18,14 @@ export const getAreaCircle = (r) => {
   const area = r * r * pi;
   return round2Decimals(area);
 };
+
+//? 3 import export
+//named export
+export const name = "value";
+//default export
+export default name;
+
+//default import
+import getMeters from "./feetToM.js";
+//named import
+import { first, second } from "./feetToM.js";
